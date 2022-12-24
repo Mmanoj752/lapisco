@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lapis.co</title>
+    <style>
+        h2
+        {
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+    </style>
+</head>
+<body bgcolor="green", text="yellow">
+    <div>
+    <h1>Lapis.co</h1>
+    </div>
+    <div>
+    {% for i in data %}
+    <h2>
+        brand={{i.brand}} <br>
+        ram={{i.RAM}} GB<br>
+        hdd={{i.HDD}} GB<br>
+        ssd={{i.SSD}} GB<br>
+        processer={{i.Processer}}<br>
+        price={{i.Price}}<br>
+        colour={{i.Colour}}<br>
+    </h2>
+    <br>
+    {% endfor %}
+    </div>
+</body>
+</html>

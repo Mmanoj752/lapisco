@@ -1,0 +1,7 @@
+store_name=["lapis.co"]
+brand=['apple','Dell','HP','Microsoft','asus','acer','Lenovo']
+ram=[4,8,12,16,31,64]
+hdd=[512,1024]
+ssd=[256,512,1024]
+processer=['intel i3','intel i5','intel i7','intel i9','AMD']
+price=['25k','30k','40k','50k','60k','70k','80k','90k','100k']
